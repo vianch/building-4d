@@ -5652,12 +5652,12 @@ ARjs.Profile.prototype.reset = function () {
 	}
 
 	this.contextParameters = {
-		cameraParametersUrl: 'http://localhost:8080//data/data/camera_para.dat',
+		cameraParametersUrl: 'https://vianch.github.io/building-4d/data/data/camera_para.dat',
 		detectionMode: 'mono',
 	}
 	this.defaultMarkerParameters = {
 		type : 'pattern',
-		patternUrl : 'http://localhost:8080//data/patt.hiro',
+		patternUrl : 'https://vianch.github.io/building-4d/data/patt.hiro',
 		changeMatrixMode: 'modelViewMatrix',
 	}
 	return this
